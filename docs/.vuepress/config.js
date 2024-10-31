@@ -11,8 +11,8 @@ export default defineUserConfig({
   port: 8080,
 
   title: '架构笔记',
-  description: '架构师',
-  base: '/arch-notes/', // gh-page 中是增加了项目名
+  description: 'You have to write your own story.',
+  base: '/arch-notes', // gh-page 中是增加了项目名
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -37,8 +37,11 @@ export default defineUserConfig({
     docsDir: 'docs',
     docsBranch: 'main',
 
+    hostname: "abc",
+
     home: false,
-    logo: '/images/logo-color.png',
+    logo: '/images/tech-architecture-logo.svg',
+
     lastUpdated: '最后更新',
 
 
@@ -56,7 +59,10 @@ export default defineUserConfig({
 
     // 导航栏
     navbar: [
-      '/',
+      {
+        text: '首页', 
+        link: '/'
+      },
       {
         text: '关于我',
         link: 'https://zouyingjie.github.io',

@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/arch-notes/\",\"lang\":\"en-US\",\"title\":\"架构笔记\",\"description\":\"架构师\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}],[\"link\",{\"rel\":\"manifest\",\"href\":\"/manifest.json\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/arch-notes/\",\"lang\":\"en-US\",\"title\":\"架构笔记\",\"description\":\"You have to write your own story.\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}],[\"link\",{\"rel\":\"manifest\",\"href\":\"/manifest.json\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
