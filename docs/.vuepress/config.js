@@ -111,6 +111,7 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    blogPlugin({}),
     ['vuepress-plugin-container',
       {
         type: 'right',
