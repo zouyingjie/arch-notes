@@ -40,7 +40,7 @@ export default defineUserConfig({
     hostname: "abc",
 
     home: false,
-    logo: '/images/tech-architecture-logo.png',
+    logo: '/images/microservices-logo.svg',
 
     lastUpdated: '最后更新',
 
