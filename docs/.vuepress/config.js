@@ -12,7 +12,7 @@ export default defineUserConfig({
 
   title: '架构笔记',
   description: 'You have to write your own story.',
-  base: '/arch-notes/', // gh-page 中是增加了项目名
+  base: '/', // gh-page 中是增加了项目名
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
