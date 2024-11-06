@@ -7,6 +7,9 @@ on:
   # 手动触发部署
   workflow_dispatch:
 
+permissions:
+  contents: write  # 给予写入内容的权限
+  
 jobs:
   docs:
     runs-on: ubuntu-latest
