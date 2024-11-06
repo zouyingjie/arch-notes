@@ -40,7 +40,7 @@ export default defineUserConfig({
     hostname: "abc",
 
     home: false,
-    logo: '/images/tech-architecture-logo.svg',
+    logo: '/images/tech-architecture-logo.png',
 
     lastUpdated: '最后更新',
 
@@ -69,8 +69,8 @@ export default defineUserConfig({
       }
     ],
       // 侧边栏
-    sidebarDepth: 3,
-    sidebar: 'auto',
+    sidebarDepth: 2,
+
     sidebar: [
   
     {
